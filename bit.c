@@ -4,7 +4,7 @@ void main()
 int num,pos,op,c=0; //counter c=0
 printf("Enter The number....\n");
 scanf("%d",&num);
-L1:
+L1:                                     // this is used for couter operator
 printf("Enter The pos....\n");
 scanf("%d",&pos);
 if(pos>=0 && pos<=31)
